@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body{
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  text-align: center;
+  padding: 30px;
+}
+header div a{
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+/* DESAFIO 2.2 */
+main {
+  text-align: center;
+}
+
+#empresa img {
+  border-radius: 50%;
+  border: 5px solid black;
+  margin-bottom: 32px;
+  height: 150px;  
+}
+
+#empresa h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+#tecnologias h3 {
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+#tecnologias ul li{
+  list-style: none;
+  margin: 12px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  color: #6c63eb;
+}
+
+footer a:hover {
+  color: #160161;
+  text-decoration: underline;
+  transition: 200ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

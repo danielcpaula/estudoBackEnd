@@ -1,0 +1,14 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <div id="wrapper" class="video">
+    <h1>{{item.title}}</h1>
+  </div>
+  <section class="video">
+    <div class="card">
+          <div class="card__image-container">
+            <iframe src="https://blog.rocketseat.com.br/{{item.site}}" frameborder="0"></iframe>
+          </div>
+        </div>
+  </section>
+{% endblock %}
