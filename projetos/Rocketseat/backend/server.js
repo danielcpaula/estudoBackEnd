@@ -56,6 +56,6 @@ server.use(function (req, res, next) {
   res.status(404).render("not-found");
 });*/
 
-server.listen(5000, function(){
+server.listen(4000, function(){
   console.log("Server is running")
 })
